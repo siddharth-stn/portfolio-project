@@ -1,0 +1,284 @@
+*, *:after, *:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header nav {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 50px;
+    width: 50%;
+    height: 150px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.my-image {
+    position: absolute;
+    right: 47px;
+    top: -100px;
+}
+
+.my-image .green-shade {
+    position: absolute;
+    background-color: #A3CB3A;
+    height: 500px;
+    width: 300px;
+    z-index: -1;
+}
+
+.my-image img {
+    position: absolute;
+    top: 250px;
+    left: 50px;
+}
+
+.about-me {
+    margin-left: 50px;
+    width: 400px;
+}
+.about-me h1, p {
+    margin-bottom: 10px;
+}
+
+.about p {
+    font-size: 0.7rem;
+}
+
+.about-me button {
+    background-color: #A3CB3A;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.qualification {
+    margin-top: 100px;
+    display: flex;
+}
+
+.hero-head-background {
+    position: absolute;
+    left: -110px;
+    width: 230px;
+    height: 140px;
+    z-index: -1;
+    background: url("static /images/bg.png");
+}
+
+.hero-head {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.from-to {
+    margin-left: 300px;
+    font-size: 0.9rem;
+}
+
+.from-to h3 {
+    color: #A3CB3A;
+}
+
+.my-work {
+    display: flex;
+    flex-direction: column;
+}
+
+.my-work h2 {
+    align-self: center;
+    margin-bottom: 50px;
+}
+
+.my-work > span {
+    align-self: center;
+}
+
+.snaps {
+    margin-top: 100px;
+    align-self: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 200px;
+}
+
+.snaps > div img {
+    width: 100px;
+}
+
+.snaps > div {
+    position: relative;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+}
+
+.bookmark {
+    position: absolute;
+    top: -5px;
+    left: 10px;
+    width: 15px;
+    height: 20px;
+    background-color: #A3CB3A;
+}
+
+.snaps > div span {
+    font-size: 0.9rem;
+}
+.snaps > div span:first-of-type {
+    font-weight: bold;
+}
+
+.snaps > div a {
+    text-decoration: none;
+    color: #A3CB3A;
+}
+
+.achievements {
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    display: flex;
+}
+
+.salient-points {
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.7rem;
+    row-gap: 100px;
+    column-gap: 100px;
+}
+
+.salient-points > div {
+    width: 30%;
+}
+
+.dash {
+    width: 15px;
+    height: 2px;
+    background-color: #A3CB3A;
+}
+
+.hero-achieve {
+    position: absolute;
+    right: 0px;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: #A3CB3A;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.other-work {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-other {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-other span {
+    color: #A3CB3A;
+    font-size: 3rem;
+}
+
+.hero-other  p {
+    font-size: 0.7rem;
+    width: 250px;
+}
+
+.collage {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: center;
+    height: 330px;
+    width: 100%;
+}
+
+.collage > div {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.collage-one {
+    width: 150px;
+    height: 180px;
+    background: url("static /images/guitar.png");
+}
+.collage-two {
+    width: 150px;
+    height: 100px;
+    background: url("static /images/painting.png");
+}
+.collage-three {
+    width: 120px;
+    height: 100px;
+    background: url("static /images/friends.png");
+}
+.collage-four {
+    width: 120px;
+    height: 100px;
+    background: url("static /images/badminton.png");
+}
+.collage-five {
+    width: 120px;
+    height: 120px;
+    background: url("static /images/reading.png");
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact {
+    background-color: #A3CB3A;
+    padding: 40px 100px 50px 40px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.contact span {
+    font-size: 0.7rem;
+}
+
+.contact  span:first-of-type {
+    font-size: 2rem;
+}
+
+.rights {
+    align-self: flex-end;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+
